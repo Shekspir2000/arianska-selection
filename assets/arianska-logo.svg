@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" role="img" aria-labelledby="title desc">
+  <title id="title">Ariańska Selection</title>
+  <desc id="desc">Logo z liliową literą A, koralowym kołem i czarnym napisem Ariańska Selection.</desc>
+  <path fill="#CF79BD" d="M251.8 31.8c12.7 0 24 8.1 28 20.1L336.3 219h-51.8l-36.6-116.4L211.4 219h-51.7l56.2-167.1c4-12 15.2-20.1 27.9-20.1h8Z"/>
+  <circle cx="248" cy="159" r="47" fill="#FF5156"/>
+  <text x="320" y="119" fill="#111111" font-family="Montserrat, Avenir Next, Arial, sans-serif" font-size="46" font-weight="500" letter-spacing="-2">ARIAŃSKA</text>
+  <text x="320" y="171" fill="#111111" font-family="Montserrat, Avenir Next, Arial, sans-serif" font-size="46" font-weight="500" letter-spacing="-2">SELECTION</text>
+</svg>

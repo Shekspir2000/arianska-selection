@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ariańska Selection | Wyselekcjonowana odzież z drugiej ręki</title>
+    <meta
+      name="description"
+      content="Ariańska Selection to starannie wyselekcjonowana odzież z drugiej ręki w Krakowie: rzeczy z charakterem, dobre materiały i spokojny wybór bez modowego pośpiechu."
+    >
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="topline">
+      <span>Starannie wyselekcjonowana odzież z drugiej ręki</span>
+      <span>Dodatki, eventy tematyczne, warsztaty</span>
+      <span>Ul. Ariańska 18/1, Kraków</span>
+    </div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Ariańska Selection">
+        <img src="assets/logo-menu.png" alt="Ariańska Selection">
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="#onas">O nas</a>
+        <a href="#sklep">Sklep</a>
+        <a href="#eventy">Eventy tematyczne</a>
+        <a href="#warsztaty">Warsztaty</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="social-link" href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="4" y="4" width="16" height="16" rx="5"></rect>
+            <circle cx="12" cy="12" r="3.4"></circle>
+            <path d="M17.3 6.8h.01"></path>
+          </svg>
+        </a>
+        <a class="social-link" href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M14.2 8.1h2.1V4.6c-.36-.05-1.58-.16-3-.16-2.97 0-5 1.86-5 5.28v3H5v3.92h3.3v7.14h4.05v-7.14h3.17l.5-3.92h-3.67v-2.62c0-1.13.3-1.9 1.85-1.9Z"></path>
+          </svg>
+        </a>
+        <button class="bag-button" type="button" aria-label="Koszyk" data-bag>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6.5 8.5h11l1 11h-13l1-11Z"></path>
+            <path d="M9 8.5a3 3 0 0 1 6 0"></path>
+          </svg>
+          <span data-bag-count>0</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Ariańska Selection">
+        <picture>
+          <source
+            srcset="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1800&q=82"
+            media="(min-width: 900px)"
+          >
+          <img
+            src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1000&q=82"
+            alt="Kobieta w eleganckim płaszczu na jasnym tle"
+          >
+        </picture>
+        <div class="hero-copy">
+          <p class="eyebrow">Second-hand w wersji starannie wybranej</p>
+          <h1>Rzeczy z historią, które zaczynają nowy rozdział.</h1>
+          <p>
+            Ariańska Selection to krakowska selekcja odzieży z drugiej ręki:
+            jakościowe tkaniny, ciekawe kroje i pojedyncze egzemplarze wybierane tak,
+            jak wybiera się rzeczy do własnej szafy.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#sklep">Zobacz selekcję</a>
+            <a class="button ghost" href="#onas">Poznaj podejście</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Zaufanie">
+        <article>
+          <strong>Pojedyncze sztuki</strong>
+          <span>Każdy drop jest inny, bo każda rzecz ma własną historię.</span>
+        </article>
+        <article>
+          <strong>Realne opisy</strong>
+          <span>Stan, skład, wymiary i charakter ubrania podane bez upiększania.</span>
+        </article>
+        <article>
+          <strong>Odbiór w Krakowie</strong>
+          <span>Możesz zamówić online albo odwiedzić nas przy ul. Ariańskiej.</span>
+        </article>
+      </section>
+
+      <section class="section intro" id="onas">
+        <div>
+          <p class="eyebrow">Manifest</p>
+          <h2>Mniej rzeczy. Lepsze wybory.</h2>
+        </div>
+        <p>
+          W Ariańska Selection second-hand nie oznacza przypadkowości. Oznacza uważność:
+          dobre materiały, mocne kolory, ciekawe proporcje i ubrania, które można nosić
+          po swojemu. Selekcja jest krótka, zmienna i osobista.
+        </p>
+      </section>
+
+      <section class="section product-section" id="sklep">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Nowości</p>
+            <h2>Świeżo wybrane</h2>
+          </div>
+          <a href="#" class="text-link">Wszystkie produkty</a>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <button class="wish" type="button" aria-label="Dodaj do ulubionych">♡</button>
+            <img src="https://images.unsplash.com/photo-1548624313-0396c75e4b1a?auto=format&fit=crop&w=900&q=80" alt="Kolorowa marynarka z drugiej ręki">
+            <div>
+              <p class="product-tag">Vintage</p>
+              <h3>Marynarka Coral</h3>
+              <p>Jedna sztuka, mocny kolor, rozmiar M</p>
+              <strong>189 zł</strong>
+            </div>
+          </article>
+          <article class="product-card">
+            <button class="wish" type="button" aria-label="Dodaj do ulubionych">♡</button>
+            <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80" alt="Koszula z drugiej ręki">
+            <div>
+              <p class="product-tag">Koszule</p>
+              <h3>Koszula Poranek</h3>
+              <p>Bawełna, luźny krój, rozmiar S/M</p>
+              <strong>119 zł</strong>
+            </div>
+          </article>
+          <article class="product-card">
+            <button class="wish" type="button" aria-label="Dodaj do ulubionych">♡</button>
+            <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=900&q=80" alt="Złota biżuteria">
+            <div>
+              <p class="product-tag">Dodatki</p>
+              <h3>Klipsy Róż</h3>
+              <p>Wyrazisty detal do prostych stylizacji</p>
+              <strong>69 zł</strong>
+            </div>
+          </article>
+          <article class="product-card">
+            <button class="wish" type="button" aria-label="Dodaj do ulubionych">♡</button>
+            <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=900&q=80" alt="Torebka z drugiej ręki">
+            <div>
+              <p class="product-tag">Torby</p>
+              <h3>Torebka Forma</h3>
+              <p>Skóra naturalna, ślady użytkowania</p>
+              <strong>149 zł</strong>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="capsules" id="eventy">
+        <article>
+          <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1100&q=82" alt="Stylizacja z jasnym płaszczem">
+          <div>
+            <p class="eyebrow">Selekcja tygodnia</p>
+            <h2>Kolor, który robi całą stylizację.</h2>
+            <p>
+              Zestaw pojedynczych ubrań i dodatków w duchu wizytówki Ariańska:
+              kremowa baza, koralowy akcent, odrobina liliowego i dużo miejsca
+              na własny charakter.
+            </p>
+            <a class="button secondary" href="#sklep">Zobacz selekcję</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="section product-section">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Ariańska wybiera</p>
+            <h2>Znaleziska do szafy</h2>
+          </div>
+          <a href="#" class="text-link">Zobacz bazę</a>
+        </div>
+
+        <div class="small-products">
+          <a href="#">
+            <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?auto=format&fit=crop&w=700&q=80" alt="Jasny sweter">
+            <span>Sweter Lila</span>
+            <strong>98 zł</strong>
+          </a>
+          <a href="#">
+            <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=700&q=80" alt="Jeansy">
+            <span>Jeansy Prosta Linia</span>
+            <strong>139 zł</strong>
+          </a>
+          <a href="#">
+            <img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=700&q=80" alt="Biały t-shirt">
+            <span>T-shirt Krem</span>
+            <strong>59 zł</strong>
+          </a>
+          <a href="#">
+            <img src="https://images.unsplash.com/photo-1601924994987-69e26d50dc26?auto=format&fit=crop&w=700&q=80" alt="Okulary przeciwsłoneczne">
+            <span>Okulary Rysa</span>
+            <strong>89 zł</strong>
+          </a>
+        </div>
+      </section>
+
+      <section class="journal" id="warsztaty">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Dziennik</p>
+            <h2>Notatki o stylu z drugiego obiegu</h2>
+          </div>
+          <a href="#" class="text-link">Czytaj więcej</a>
+        </div>
+
+        <div class="journal-grid">
+          <article class="featured-article">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1100&q=82" alt="Portret kobiety">
+            <div>
+              <p class="eyebrow">Rozmowa</p>
+              <h3>Jak rozpoznać rzecz, która naprawdę zasługuje na drugie życie.</h3>
+              <p>Krótki przewodnik po materiale, kroju, stanie i tym trudnym „czymś”.</p>
+              <a href="#">Przeczytaj</a>
+            </div>
+          </article>
+          <article>
+            <p class="article-meta">Poradnik · 6 min</p>
+            <h3>Jak mierzyć ubrania online, kiedy każda sztuka jest pojedyncza</h3>
+            <a href="#">Przeczytaj</a>
+          </article>
+          <article>
+            <p class="article-meta">Dom · 4 min</p>
+            <h3>Dlaczego second-hand premium zaczyna się od cierpliwości</h3>
+            <a href="#">Przeczytaj</a>
+          </article>
+          <article>
+            <p class="article-meta">Selekcja · 5 min</p>
+            <h3>Pięć kolorów z wizytówki, które pasują do codziennej szafy</h3>
+            <a href="#">Przeczytaj</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="community">
+        <div>
+          <p class="eyebrow">Ariańska Selection</p>
+          <h2>Nowe dropy bez przegapienia.</h2>
+          <p>
+            Dostaniesz informację o świeżej selekcji, zanim pojedyncze sztuki znikną
+            z wieszaków. Bez spamu, bez presji, tylko rzeczy warte uwagi.
+          </p>
+        </div>
+        <form class="newsletter" data-newsletter>
+          <label for="email">Adres e-mail</label>
+          <div>
+            <input id="email" type="email" name="email" placeholder="twoj@email.pl" required>
+            <button class="button primary" type="submit">Dołącz</button>
+          </div>
+          <p data-form-message>Bez spamu. Zawsze możesz się wypisać.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand footer-brand" href="#top">
+          <img src="assets/arianska-logo-card.png" alt="Ariańska Selection">
+        </a>
+        <p>Starannie wyselekcjonowana odzież z drugiej ręki. Ul. Ariańska 18/1, 31-505 Kraków.</p>
+      </div>
+      <nav aria-label="Stopka">
+        <a href="mailto:kontakt@arianskaselection.pl">kontakt@arianskaselection.pl</a>
+        <a href="#">Dostawa i zwroty</a>
+        <a href="#">Regulamin</a>
+        <a href="#">Polityka prywatności</a>
+      </nav>
+      <p class="copyright">© 2026 Ariańska Selection · Instagram: @arianska.selection</p>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="script.js"></script>
+  </body>
+</html>
