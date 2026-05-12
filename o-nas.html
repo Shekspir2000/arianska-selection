@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>O nas | Ariańska Selection</title>
+    <meta
+      name="description"
+      content="Poznaj Marię, Kasię i Izę - dziewczyny, które tworzą Ariańska Selection przy ul. Ariańskiej 18/1 w Krakowie."
+    >
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="topline">
+      <span>Starannie wyselekcjonowana odzież z drugiej ręki</span>
+      <span>Dodatki, eventy tematyczne, warsztaty</span>
+      <span>Ul. Ariańska 18/1, Kraków</span>
+    </div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html" aria-label="Ariańska Selection">
+        <img src="assets/logo-menu.png" alt="Ariańska Selection">
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="o-nas.html" aria-current="page">O nas</a>
+        <a href="index.html#sklep">Sklep</a>
+        <a href="index.html#eventy">Eventy tematyczne</a>
+        <a href="index.html#warsztaty">Warsztaty</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="social-link" href="#" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="4" y="4" width="16" height="16" rx="5"></rect>
+            <circle cx="12" cy="12" r="3.4"></circle>
+            <path d="M17.3 6.8h.01"></path>
+          </svg>
+        </a>
+        <a class="social-link" href="#" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M14.2 8.1h2.1V4.6c-.36-.05-1.58-.16-3-.16-2.97 0-5 1.86-5 5.28v3H5v3.92h3.3v7.14h4.05v-7.14h3.17l.5-3.92h-3.67v-2.62c0-1.13.3-1.9 1.85-1.9Z"></path>
+          </svg>
+        </a>
+        <button class="bag-button" type="button" aria-label="Koszyk" data-bag>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6.5 8.5h11l1 11h-13l1-11Z"></path>
+            <path d="M9 8.5a3 3 0 0 1 6 0"></path>
+          </svg>
+          <span data-bag-count>0</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="about-hero">
+        <div class="about-hero-copy">
+          <p class="eyebrow">O nas</p>
+          <h1>Za Ariańską Selection stoją Mania, Kasia i Iza.</h1>
+          <p>
+            Trzy dziewczyny, które stworzyły miejsce pełne uważności, koloru i rzeczy
+            z charakterem. Ariańska Selection powstała z potrzeby wybierania lepiej:
+            spokojniej, bliżej ludzi i z większą czułością do ubrań, które już mają
+            swoją historię.
+          </p>
+        </div>
+        <figure class="about-team-photo">
+          <img
+            src="assets/team-arianska-selection.png"
+            alt="Maria, Kasia i Iza w sklepie Ariańska Selection"
+          >
+          <figcaption>Maria (Mania), Kasia i Iza - zespół Ariańska Selection.</figcaption>
+        </figure>
+      </section>
+
+      <section class="about-story">
+        <div>
+          <p class="eyebrow">Nasze podejście</p>
+          <h2>Nie szukamy rzeczy przypadkowych.</h2>
+        </div>
+        <div class="about-story-text">
+          <p>
+            Każda rzecz trafia tu po selekcji: oglądamy materiał, stan, proporcje,
+            kolor i to trudne do nazwania “coś”, które sprawia, że ubranie chce się
+            nosić dalej. Nie chodzi o ilość. Chodzi o wybór, który ma sens.
+          </p>
+          <p>
+            Ariańska to również spotkania, dodatki, eventy tematyczne i warsztaty.
+            Miejsce przy ul. Ariańskiej 18/1 w Krakowie ma być nie tylko sklepem,
+            ale spokojnym punktem dla osób, które lubią styl z historią.
+          </p>
+        </div>
+      </section>
+
+      <section class="about-values" aria-label="Co tworzy Ariańska Selection">
+        <article>
+          <strong>Mania</strong>
+          <span>Uważność do detalu, rozmów i rzeczy, które potrzebują dobrego kontekstu.</span>
+        </article>
+        <article>
+          <strong>Kasia</strong>
+          <span>Energia, która łączy selekcję z pomysłami na spotkania i tematyczne wydarzenia.</span>
+        </article>
+        <article>
+          <strong>Iza</strong>
+          <span>Oko do stylu, proporcji i ubrań, które potrafią odmienić codzienną szafę.</span>
+        </article>
+      </section>
+
+      <section class="about-visit">
+        <div>
+          <p class="eyebrow">Odwiedź nas</p>
+          <h2>ul. Ariańska 18/1, Kraków.</h2>
+        </div>
+        <p>
+          Wpadnij zobaczyć aktualną selekcję, przymierzyć pojedyncze sztuki albo
+          porozmawiać o tym, czego szukasz. Najświeższe dropy i zapowiedzi spotkań
+          znajdziesz też na Instagramie: @arianska.selection.
+        </p>
+        <a class="button primary" href="index.html#sklep">Wróć do selekcji</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand footer-brand" href="index.html">
+          <img src="assets/arianska-logo-card.png" alt="Ariańska Selection">
+        </a>
+        <p>Starannie wyselekcjonowana odzież z drugiej ręki. Ul. Ariańska 18/1, 31-505 Kraków.</p>
+      </div>
+      <nav aria-label="Stopka">
+        <a href="mailto:kontakt@arianskaselection.pl">kontakt@arianskaselection.pl</a>
+        <a href="#">Dostawa i zwroty</a>
+        <a href="#">Regulamin</a>
+        <a href="#">Polityka prywatności</a>
+      </nav>
+      <p class="copyright">© 2026 Ariańska Selection · Instagram: @arianska.selection</p>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="script.js"></script>
+  </body>
+</html>
