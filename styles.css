@@ -833,13 +833,7 @@ h3 {
 
 @media (max-width: 780px) {
   .topline {
-    gap: 0.25rem 1rem;
-    padding: 0.45rem 1rem;
-    font-size: 0.68rem;
-  }
-
-  .topline span:nth-child(n + 2) {
-    display: inline;
+    display: none;
   }
 
   .site-header {
